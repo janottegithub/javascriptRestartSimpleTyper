@@ -1,0 +1,141 @@
+/* line 7, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+body, html {
+  background-color: #EBECF0;
+}
+
+/* line 11, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+body, p, input, select, textarea, button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+
+/* line 17, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+div, p {
+  color: #BABECC;
+  text-shadow: 1px 1px 1px #FFF;
+}
+
+/* line 23, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+form {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+/* line 29, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+/* line 34, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button, input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+/* line 44, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+/* line 50, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+input {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* line 59, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+input:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+/* line 64, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* line 72, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+
+/* line 76, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+/* line 80, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button .icon {
+  margin-right: 8px;
+}
+
+/* line 84, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+
+/* line 95, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button.unit .icon {
+  margin-right: 0;
+}
+
+/* line 100, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+button.red {
+  display: block;
+  width: 100%;
+  color: #AE1100;
+}
+
+/* line 107, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* line 112, /Users/janotte/Desktop/test-javascript/scss/style.scss */
+.input-group label {
+  margin: 0;
+  flex: 1;
+}
+
+::placeholder{
+  padding-left: 10px;
+  color: #d7d7d7;
+}
+
+
+#writing{
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+
+/*# sourceMappingURL=../css/style.map */
